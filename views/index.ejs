@@ -58,9 +58,7 @@
             </div>
 
             <div class="col col-sm-6 col-md-3">
-              <div class="">
-                <img class="avatar mx-auto d-block" src="img/a.jpg" alt="Avatar">
-              </div>
+                <div id="map"></div>
             </div>
 
           </div>
@@ -75,20 +73,16 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item text-center active">
-              <img class="img-fluid" src="img/50.jpg" alt="First slide">
+              <img class="img-fluid" src="img/58.jpg" alt="First slide">
             </div>
             <div class="carousel-item text-center">
-              <img class="img-fluid" src="img/51.jpg" alt="Second slide">
+              <img class="img-fluid" src="img/60.jpg" alt="Third slide">
             </div>
             <div class="carousel-item text-center">
-              <img class="img-fluid" src="img/52.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item text-center">
-              <img class="img-fluid" src="img/54.jpg" alt="Third slide">
+              <img class="img-fluid" src="img/59.jpg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -334,7 +328,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="img-cont">
               <img class="scarf image" src="img/26.jpg" alt="scarf">
               <div class="middle">
@@ -400,6 +394,23 @@
       </div>
 
     </div>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
 
     <!-- <footer class="footer">
       <div>

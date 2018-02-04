@@ -117,10 +117,15 @@ body {
   height: 300px;
 }
 
+#map {
+  height: 300px;
+  width: 100%;
+}
+
 /* ***************** link hovering******************* */
 
 a:link {
-  /* color: #0D47A1; */
+  color: green;
 }
 
 a:visited {
@@ -133,7 +138,7 @@ a:hover {
 }
 
 a:active {
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
 }
 
 .nav-link,
