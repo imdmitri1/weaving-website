@@ -161,4 +161,16 @@ a:active {
   width: 100%;
 }
 
+
+@media screen and (max-width: 480px){
+	.nav-link {
+    padding-left: 6px;
+    padding-right: 6px;
+	}
+	.nav.navbar {
+    padding-left: 1px;
+    padding-right: 1px;
+	}
+}
+
 /* *********************************************** */
