@@ -52,7 +52,7 @@ body {
 
 }
 
-/* ********************************************* */
+/* ***************** scarf hovering **************************** */
 
 .img-cont {
     position: relative;
@@ -115,4 +115,23 @@ body {
 
 .avatar {
   height: 300px;
+}
+
+/* ***************** link hovering******************* */
+
+a:link {
+  color: #0D47A1;
+}
+
+a:visited {
+
+}
+
+a:hover {
+    background-color: #E1F5FE;
+    color: #00838F;
+}
+
+a:active {
+    background-color: #EEEEEE;
 }
