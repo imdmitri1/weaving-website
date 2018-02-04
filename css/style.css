@@ -119,8 +119,8 @@ body {
 
 /* ***************** link hovering******************* */
 
-/* a:link {
-  color: #0D47A1;
+a:link {
+  /* color: #0D47A1; */
 }
 
 a:visited {
@@ -128,13 +128,13 @@ a:visited {
 }
 
 a:hover {
-    background-color: #E1F5FE;
+    /* background-color: #E1F5FE; */
     color: #00838F;
 }
 
 a:active {
     background-color: #EEEEEE;
-} */
+}
 
 .nav-link,
 .nav-link:after,
