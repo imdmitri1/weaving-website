@@ -6,6 +6,10 @@ body {
   height: 100%;
 }
 
+.nav.navbar {
+  background-color: #ECEFF1;
+}
+
 .header img {
   width: 100%;
 }
@@ -165,7 +169,7 @@ a:active {
   content: '.';
   color: transparent;
   background: #0097A7;
-  height: 2px;
+  height: 1px;
 }
 .nav-link:hover:after {
   width: 100%;
