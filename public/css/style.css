@@ -8,10 +8,13 @@ body {
 
 .header img {
   width: 100%;
-  /* min-width: 500px; */
 }
 
-/* *************************************** */
+.header {
+  min-height: 60px;
+}
+
+/* *************** scarves cokumns ************************ */
 
 #grid[data-columns]::before {
 	content: '3 .column.size-1of3';
@@ -47,16 +50,13 @@ body {
 /* ********************************************* */
 
 .scarf {
-  width: 98%;
-  margin: 1%;
-
+  padding: 2px;
 }
 
 /* ***************** scarf hovering **************************** */
 
 .img-cont {
     position: relative;
-    width: 98%;
 }
 
 .image {
@@ -80,7 +80,7 @@ body {
 }
 
 .img-cont:hover .image {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .img-cont:hover .middle {
@@ -88,10 +88,11 @@ body {
 }
 
 .text {
-  background-color: #B0BEC5;
-  color: #424242;
+  background-color: #00695C;
+  opacity: 0.9;
+  color: #FF6F00;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 5px 5px;
   border-radius: 3px;
 }
 
@@ -123,9 +124,13 @@ body {
 }
 
 /* ***************** link hovering******************* */
+.nav-item a {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
 
 a:link {
-  color: green;
+  color: #17599b;
 }
 
 a:visited {
@@ -134,7 +139,7 @@ a:visited {
 
 a:hover {
     /* background-color: #E1F5FE; */
-    color: #00838F;
+    color: #0097A7;
 }
 
 a:active {
@@ -159,8 +164,8 @@ a:active {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
-  height: 1px;
+  background: #0097A7;
+  height: 2px;
 }
 .nav-link:hover:after {
   width: 100%;
@@ -169,13 +174,28 @@ a:active {
 
 @media screen and (max-width: 480px){
 	.nav-link {
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
 	}
 	.nav.navbar {
-    padding-left: 1px;
+    padding-left: 0px;
     padding-right: 1px;
 	}
 }
+
+/* ******************* contact **************************** */
+
+
+@media screen and (max-width: 480px){
+  .contact {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
 
 /* *********************************************** */
