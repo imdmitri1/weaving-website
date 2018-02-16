@@ -4,6 +4,8 @@ body {
   font-family: 'Raleway', sans-serif;
   width: 100%;
   height: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .nav.navbar {
@@ -18,7 +20,7 @@ body {
   min-height: 60px;
 }
 
-/* *************** scarves cokumns ************************ */
+/* *************** scarves columns ************************ */
 
 #grid[data-columns]::before {
 	content: '3 .column.size-1of3';
@@ -116,19 +118,8 @@ body {
   width: 100%;
   margin: 0 auto;
   color: #17599b;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: 'Cabin Sketch', cursive;
-}
-
-/* *********************************************** */
-
-.avatar {
-  height: 300px;
-}
-
-#map {
-  height: 300px;
-  width: 100%;
 }
 
 /* ***************** link hovering******************* */
@@ -200,10 +191,33 @@ a:active {
   }
 }
 
+.avatar {
+  height: 300px;
+}
 
+#map {
+  height: 300px;
+  width: 100%;
+}
 
+/* ******************** carousel *************************** */
 
+.web {
+  display: inherit;
+}
 
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px){
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: inherit;
+  }
+}
 
 
 /* *********************************************** */
