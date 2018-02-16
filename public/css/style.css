@@ -138,6 +138,12 @@ body {
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 480px){
+  .nav-item a {
+    font-size: .9em;
+  }
+}
+
 a:link {
   color: #17599b;
 }
@@ -179,8 +185,8 @@ a:active {
 
 @media screen and (max-width: 480px){
 	.nav-link {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
 	}
 	.nav.navbar {
     padding-left: 0px;
