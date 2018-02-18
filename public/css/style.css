@@ -1,5 +1,5 @@
 body {
-  background-color: #ECEFF1;
+  background-color: #F6E8C7;
   margin: 0;
   font-family: 'Raleway', sans-serif;
   width: 100%;
@@ -9,7 +9,7 @@ body {
 }
 
 .nav.navbar {
-  /* background-color: #ECEFF1; */
+  /* background-color: #F6E8C7; */
 }
 
 .header {
@@ -104,9 +104,9 @@ body {
 }
 
 .text {
-  background-color: #00695C;
+  background-color: #2a6674;
   opacity: 0.9;
-  color: #FF6F00;
+  color: #F6E8C7;
   font-size: 16px;
   padding: 5px 5px;
   border-radius: 3px;
